@@ -1,0 +1,59 @@
+body {
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.title {
+  font-size: 30px;
+  text-align: center;
+}
+
+#random-number {
+  text-align: center;
+}
+
+#number-form {
+  display: flex;
+  justify-content: center;
+}
+
+#number-form input {
+  padding: 10px;
+  border-width: 2px;
+  border-radius: 5px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #efefef;
+  border-radius: 5px;
+  border-color: gray;
+  margin: 0px 5px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+#answer {
+  font-size: 18px;
+  display: block;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.hidden {
+  display: none;
+}
